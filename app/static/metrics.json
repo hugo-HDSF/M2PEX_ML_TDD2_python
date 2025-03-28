@@ -1,0 +1,1 @@
+{"simple_model": {"accuracy": 0.875, "precision": 0.8768939393939394, "recall": 0.875, "f1": 0.8753968253968253}, "advanced_model": {"accuracy": 0.875, "precision": 0.8768939393939394, "recall": 0.875, "f1": 0.8753968253968253}, "last_trained": "2025-03-28 17:11:36"}
