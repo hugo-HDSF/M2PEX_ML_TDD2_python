@@ -58,6 +58,9 @@ make install
 
 The application will be available at http://localhost:5001
 
+> [!IMPORTANT]
+> Go to `Dashboard` and click `Retrain Models Now`. `PDF Report` and `Confusion Matrices` will be available at `./app/static/**`.
+
 ## API Usage
 
 ### Sentiment Analysis
@@ -162,19 +165,19 @@ Current model performance:
 
 ```json
 {
-"simple_model": {
-"accuracy": 0.85,
-"precision": 0.87,
-"recall": 0.85,
-"f1": 0.86
-},
-"advanced_model": {
-"accuracy": 0.90,
-"precision": 0.91,
-"recall": 0.90,
-"f1": 0.90
-},
-"last_trained": "2025-03-28 16:45:23"
+   "simple_model": {
+      "accuracy": 0.875,
+      "precision": 0.8768939393939394,
+      "recall": 0.875,
+      "f1": 0.8753968253968253
+   },
+   "advanced_model": {
+      "accuracy": 0.875,
+      "precision": 0.8768939393939394,
+      "recall": 0.875,
+      "f1": 0.8753968253968253
+   },
+   "last_trained": "2025-03-28 17:11:36"
 }
 ```
 
