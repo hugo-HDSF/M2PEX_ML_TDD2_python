@@ -145,8 +145,16 @@ The models automatically retrain weekly using a cron job that:
 The system generates confusion matrices, comparison charts, and performance metrics after each
 training:
 
-<img src="./app/static/confusion_matrix_ml.png" alt="Simple Model Confusion Matrix" width="45%">
-<img src="./app/static/confusion_matrix_nlp.png" alt="Advanced Model Confusion Matrix" width="45%">
+<table>
+  <tr>
+    <td>
+      <img src="./app/static/confusion_matrix_ml.png" alt="Login and Delete User">
+    </td>
+    <td>
+      <img src="./app/static/confusion_matrix_nlp.png" alt="Register">
+    </td>
+  </tr>
+</table>
 
 <img src="./app/static/model_comparison.png" alt="Model Comparison Chart" width="90%">
 
